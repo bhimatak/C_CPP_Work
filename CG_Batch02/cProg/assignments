@@ -1,0 +1,139 @@
+assignments
+
+q) Remove the duplicate elements in the given array of intergers
+
+i/p
+1 2 3 4 2 5 1
+
+o/p
+
+1 2 3 4 5
+
+Q) Given an array of positive integers. Your task is to find the leaders
+in the array.An element is leader if it is greater than all the elements to its right side.
+And the rightmost element is always a leader.
+
+TESTCASE 1:
+Input:
+6
+6 7 4 3 5 2
+Output:
+2 5 7
+
+TESTCASE 2:
+Input:
+5
+2 6 3 8 4
+Output:
+4 8
+
+
+
+string => collection of chars bunched together
+=> arrays
+
+char ch; => single character storage
+
+//decalartion of string
+char ch[CAP];
+
+string is ended with a null => '\0' => last character present in the string
+=> well need to decalre the size of the string 1 char/byte extra to accomadate the null character
+
+Rahul
+char name[len of string+1]
+
+if the value stored in char of arrays is equal or more than the cap of arrya declared => this might lead to seg core dump at run time
+
+
+char ch[];x
+scanf("%s",ch)
+
+
+char ch[6] = {'R','a','h','u','l','\0'};
+
+char name[6] = "Rahul";
+
+
+
+find a substring in a given string and replace the character if found with this string =>"FOUND"
+
+i/p
+str1="Rahul Kumar"
+str2="hul"
+
+o/p
+str3=>RaFOUNDumar
+
+
+
+WAP to sort the array elements in ascending order and display it
+1. 2 funs 1_sort 2_display
+3_ to collect the elements of array from user input.
+
+
+calculte the area of different shapes using command line args
+
+i/p 
+./area square 2
+o/p
+area = 4
+
+i/p 
+./area reactangle 2 3
+o/p
+area = 6
+
+
+find the average salary of the employees in an orgainisation.
+find the highest salary and print his/her details
+find the lowest salary and print the details
+DMA
+
+30 employees
+
+o/p
+avg sal = 15000.5
+
+Highest sal employee
+Emp Name: eee
+Emp ID: 33
+Emp Salary: 33.000000 
+
+Lowest sal employee
+Emp Name: eee
+Emp ID: 33
+Emp Salary: 33.000000 
+ 
+
+
+
+
+
+q) 
+1) get the employee details and store in a db
+2) display the all employee records
+3) display a particular employee record
+4) update a particular employee record (Ex: change of his/her name)
+
+
+o/p
+
+-->main screen
+
+1. new record
+2. display all emp
+3. search emp
+4. update emp
+choice: 4
+
+--> enter uid: 103
+current details
+....
+...
+....
+...
+...
+
+enter the new name to be update with: anthony
+--> go back to main screen
